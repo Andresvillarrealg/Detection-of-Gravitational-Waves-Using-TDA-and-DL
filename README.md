@@ -44,18 +44,6 @@ Detecting gravitational waves has revolutionized astrophysics, revealing new ins
 
 ---
 
-## Project Structure
-
-- **data/** – Directory containing gravitational wave signals and synthetic datasets.
-- **notebooks/** – Jupyter notebooks for each stage (data prep, TDA, model training).
-- **tda/** – Scripts for persistence diagram generation and feature extraction.
-- **cnn/** – Code for CNN model definition, training, and evaluation.
-- **mapper/** – Optional scripts for Mapper analysis and visualization.
-- **results/** – Generated figures and performance metrics.
-- **Detection of Gravitational Waves Using TDA and DL.pdf** – Final report.
-
----
-
 ## Main Results
 
 - The CNN achieved a **test accuracy of 83%** on synthetic data with variable noise, demonstrating the effectiveness of combining TDA features with deep learning.
